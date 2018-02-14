@@ -1,0 +1,176 @@
+.body {
+	font-family: Ubunta, Arial, Helvetica, serif;
+}
+
+.header {
+	background-color: #fff;
+	display: flex;
+}
+
+.foto__img {
+	max-width: 150px;
+
+}
+
+.text {
+	margin: 30px;
+	display: flex;
+	justify-content: space-around;
+	color: gray;
+}
+
+.text__p {
+	margin: 0;
+}
+
+.content {
+	background-image: url(2.jpg);
+	background-repeat: no-repeat;
+	max-width: 100%;
+	position: relative;
+	background-attachment: fixed;
+	background-position: 0 25%;
+}
+
+
+.fon {
+	background-color: rgba(10, 10, 10, 0.35);
+	position: absolute;
+	height: 100%;
+	width: 100%;
+}
+
+.information {
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	color: white;
+}
+
+.button {
+	display: inline-block;
+	text-decoration: none;
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #fff;
+	border-left: 1px solid #fff;
+	border-right: 1px solid #fff;
+	border-radius: 15px;
+	padding: 5px;
+	margin-top: 40px;
+	width: 100px;
+	color: #fff;
+	background-color: #F4A460;
+	text-align: center;
+}
+
+.button:not(:last-child) {
+	margin-right: 20px;
+}
+
+.button-block {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-bottom: 40px;
+}
+
+.information__p1 {
+	margin-top: 50px;
+	margin-bottom: 0;
+	margin-top: 40px;
+}
+
+.information__p2 {
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+.information__img {
+	max-width: 50px;
+	border-radius: 40px;
+	margin: 0 auto;
+	margin-top: 40px;
+}
+
+
+.block-button {
+	background-color: #fff;
+}
+
+.block-button {
+	margin-top: 30px;
+	border-top: 2px solid #DCDCDC;
+	border-bottom: 2px solid #DCDCDC;
+	border-left: 2px solid #DCDCDC;
+	border-right: 2px solid #DCDCDC;
+	border-radius: 3px;
+	padding-top: 5px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	display: flex;
+	justify-content: row;
+}
+
+.btn-lg {
+	border: none;
+	margin-top: 10px;
+}
+
+.block-button__text {
+	color: gray;
+}
+
+.title {
+	text-align: center;
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+
+.info-text {
+	text-align: center;
+}
+
+/* Menu */
+.menu {
+	display: flex;
+	justify-content: flex-end;	
+	list-style-type: none;
+	margin-bottom: 0;
+	margin:30px 0 0 20px;
+	align-self: center;
+}
+
+.menu li {
+	padding: 0 20px 0 20px;
+}
+
+.color {
+	color: gray;
+}
+
+.block-text {
+text-align: center;
+margin-top: 40px;
+color: #fff;
+}
+
+.block-color {
+	background-color: rgb(235, 162, 67);
+	margin-top: 50px;
+}
+
+.info {
+	background-color: rgb(247, 247, 247);
+	margin-top: 40px;
+}
+
+.info__foto {
+	max-width: 100%;
+	padding: 10px;
+}
+
+.info__text {
+	margin-left: 10px;
+	padding-bottom: 10px;
+}
